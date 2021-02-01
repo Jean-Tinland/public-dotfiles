@@ -1,3 +1,7 @@
+# /!\ Depends on terminal-notifier
+# example : drink 10 # > 1 notification every 10 minutes
+
+
 function drink() {
   echo 'Launch automated reminder task...' && echo '' 
   TITLE='automated-message'
